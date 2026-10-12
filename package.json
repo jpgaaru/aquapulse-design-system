@@ -1,0 +1,26 @@
+{
+  "name": "aquapulse-design-system-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AquaPulse Design System — Enterprise React & TypeScript Component Library",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run --workspaces --if-present build",
+    "typecheck": "npm run --workspaces --if-present typecheck",
+    "test": "npm run --workspaces --if-present test",
+    "serve": "node serve-aquaops.mjs"
+  },
+  "keywords": [
+    "aquaculture",
+    "react",
+    "design-system",
+    "typescript",
+    "telemetry",
+    "iot",
+    "components"
+  ],
+  "author": "AquaPulse Team",
+  "license": "MIT"
+}

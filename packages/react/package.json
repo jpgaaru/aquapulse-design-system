@@ -1,0 +1,37 @@
+{
+  "name": "@aquapulse/react",
+  "version": "1.0.0",
+  "description": "AquaPulse React Component Library — Enterprise Aquaculture & Telemetry UI Primitives",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
+  },
+  "dependencies": {
+    "@aquapulse/tokens": "*",
+    "lucide-react": "^0.475.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "typescript": "^5.7.3"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "react",
+    "design-system",
+    "aquaculture",
+    "typescript",
+    "components",
+    "aquapulse"
+  ],
+  "author": "AquaPulse Team",
+  "license": "MIT"
+}
